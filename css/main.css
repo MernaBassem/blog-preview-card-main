@@ -1,0 +1,86 @@
+:root{
+    --color-yallow : hsl(47, 88%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 50%);
+    --color-black: hsl(0, 0%, 7%);
+    --font-familiy :'Figtree', sans-serif;;
+}
+html{
+    font-size: 1rem;
+}
+#home{
+   
+    height: 100vh;
+    background-color: var(--color-yallow);
+}
+#home .container{
+    width: 30%;
+    border: 1px  var(--color-black) solid;
+    box-shadow: 8px 8px 1px  var(--color-black) ;
+}
+#home .container button{
+    background-color:  var(--color-yallow);
+    color:  var(--color-black);
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: var(--font-familiy);
+}
+h5,h3{
+    font-family: var(--font-familiy);
+    color: var(--color-black);
+}
+h5{
+
+    font-weight: 600;
+}
+h3{
+    margin-block: 10px;
+    font-size: 2.125rem;
+    font-weight: 800;
+}
+h3:hover{
+    color: var(--color-yallow);
+    cursor: pointer;
+}
+p{
+    font-weight: 600;
+    font-size:1.125rem;
+    line-height: 28px;
+    font-family: var(--font-familiy);
+    color: var(--color-grey);
+}
+span{
+    font-weight: 800;
+    padding-left: 10px;
+    font-size:1.125rem;
+    font-family: var(--font-familiy);
+    color: var(--color-black);
+}
+
+@media screen and (max-width : 1550px){
+    #home .container{
+      width:40%;
+    }
+  }
+  @media screen and (max-width : 1160px){
+    #home .container{
+      width:50%;
+    }
+  }
+  
+  @media screen and (max-width : 750px) {
+    #home .container{
+      width:60%;
+    }
+  }
+  
+  @media screen and (max-width : 570px) {
+    #home .container{
+      width:80%;
+    }
+  }
+  @media screen and (max-width : 425px) {
+    #home .container{
+      width:98%;
+    }
+  }
